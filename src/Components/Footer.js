@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+
 function Footer() {
     return (
         <div>
@@ -18,17 +19,23 @@ function Footer() {
                     <li className="list">BEVERAGE PETROCHEMICAL</li>
                     <li className="list">REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE </li>
                     <li className="list">RESIDENTIAL</li>
-                </ul> 
+                </ul>
             </div>
             <div id="example3">
-                <div className="row">
-                    <div className="col">
-
+                <div className="row-1">
+                    <div className="col-3">
+                        <h3 className="dot"><i className="fa fa-phone" aria-hidden="true"></i></h3>
+                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
                     </div>
-                    <div className="col-2">
-
+                    <div className="col-4">
+                        <h3 className="dot"><i className="fa fa-phone" aria-hidden="true"></i></h3>
+                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
                     </div>
-                    
+                    <div className="col-5">
+                        <h3 className="dot"><i className="fa fa-phone" aria-hidden="true"></i></h3>
+                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -115,6 +115,44 @@ color:red;}
   content: none;
 } 
 
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa-phone {
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin: 4px;
+  color: red;
+}
+
+.toll{
+  margin-top: -34px;
+    margin-left: 37px;
+    color: white;
+    font-size: 17px;
+}
+.row-1{
+  display: flex;
+  margin-left: 106px;
+}
+.col-3{
+flex-direction: column;
+flex: 2;
+}
+.col-4{
+  flex-direction: column;
+  flex: 2;
+}
+.col-5{
+  flex-direction: column;
+  flex: 2;
+}
 
 @media only screen and (max-width: 425px) {
   .side{
