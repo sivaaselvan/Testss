@@ -103,3 +103,15 @@ hr.new4 {
   background-color: red;
   margin: 9px;
 }
+
+.list {
+  display:inline-block;
+  margin-left: 2px;
+}
+.list:before
+{content:' | ';
+color:red;}
+
+.list:first-child:before{
+  content: none;
+} 
