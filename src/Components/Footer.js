@@ -22,21 +22,9 @@ function Footer() {
                 </ul>
             </div>
             <div id="example3">
-                <div className="row-1">
-                    <div className="col-3">
-                        <h3 className="dot"></h3>
-                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
-                    </div>
-                    <div className="col-4">
-                        <h3 className="dot"></h3>
-                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
-                    </div>
-                    <div className="col-5">
-                        <h3 className="dot"></h3>
-                        <h2 className="toll">Toll free<b> 1800 200 1234</b></h2>
-                    </div>
+               
 
-                </div>
+                
             </div>
         </div>
 
