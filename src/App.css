@@ -1,38 +1,105 @@
-.App {
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  background: rgb(255,249,177);
+background: linear-gradient(3deg, rgba(255,249,177,1) 0%, rgba(255,249,177,1) 55%, rgba(255,255,253,1) 100%);
+
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Logo{
+  height: 129px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  display:flex;
+}
+.col{
+  flex-direction: row;
+  flex: 1;
+
+}
+.col-2{
+  flex-direction: row;
+  flex: 2;
+
+}
+.side{
+  width: 100%;
+}
+.text-1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text-align{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.award-imag{
+  width: 99%;
+}
+span.text-2 {
+  font-size: 18px;
+}
+.text-size {
+  font-size: 18px;
+}
+.text-3{
+  margin-top: 51px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.materials{
+  width: 88%;
+  display: block;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: auto;
+}
+
+hr.new4 {
+    border: 1px solid red;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#para{
+  font-weight: bold;
+  font-size: 16px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footers{
+  text-align: center;
+  margin-top: 17px;
+  margin: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#example3 {
+  border: 1px solid red;
+  padding: 19px;
+  background-color: red;
+  margin: 9px;
 }
