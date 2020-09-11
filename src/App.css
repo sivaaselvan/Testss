@@ -96,7 +96,7 @@ hr.new4 {
 }
 
 
-#example3 {
+.boxs {
   border: 1px solid red;
   padding: 19px;
   background-color: red;
@@ -122,20 +122,19 @@ color:red;}
   border-radius: 50%;
   display: inline-block;
 }
-
-.fa-phone {
-  align-items: center;
-  text-align: center;
-  display: block;
-  margin: 4px;
-  color: red;
+.call{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
 }
 
+
+
 .toll{
-  margin-top: -34px;
-    margin-left: 37px;
-    color: white;
-    font-size: 17px;
+  margin-top: -43px;
+  margin-left: 31px;
+  color: white;
+  font-size: 17px;
 }
 .row-1{
   display: flex;
@@ -221,4 +220,34 @@ flex: 2;
     /* margin-top: 17px; */
     /* margin: 16px; */
 }
+}
+
+@media only screen and (max-width: 845px) {
+  .row-1{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 106px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .col-3{
+  flex-direction: row;
+  flex: 2;
+  }
+  .col-4{
+    flex-direction: row;
+    flex: 2;
+  }
+  .col-5{
+    flex-direction: row;
+    flex: 2;
+  }
+  .call {
+    height: 25px;
+    width: 25px;
+    margin-left: -182px;
+    display: inline-block;
+  }
 }
