@@ -127,7 +127,12 @@ color:red;}
   width: 25px;
   display: inline-block;
 }
-
+.face{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  color : red;
+}
 
 
 .toll{
@@ -151,6 +156,11 @@ flex: 2;
 .col-5{
   flex-direction: column;
   flex: 2;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  text-decoration-line: blink;
 }
 
 @media only screen and (max-width: 550px) {
@@ -250,4 +260,13 @@ flex: 2;
     margin-left: -182px;
     display: inline-block;
   }
+  .face{
+    height: 25px;
+    width: 25px;
+    margin-left: -182px;
+
+    display: inline-block;
+    color : red;
+  }
+  
 }
